@@ -65,10 +65,10 @@ class ClimateNewsRunner():
     def main(self):
         self.logger.info('Started Working on Climate News...')
         # Get news and update MongoDB
-        # self.run_strategies()
+        self.run_strategies()
         # write to spreadsheet, today and yesterday's news
         # 2 sheets: only 50 top news, and all found news
-        # self.write_spreadsheet.main()
+        self.write_spreadsheet.main()
         # Tweet latest piece of news
         db_and_out.TweetFromDB(self.date_today).tweet_top_new()
     
