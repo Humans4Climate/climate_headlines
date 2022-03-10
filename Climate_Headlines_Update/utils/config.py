@@ -20,7 +20,7 @@ gsheet = {
   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/climatemoneybot%40climatemoneybot.iam.gserviceaccount.com"
 }
 
-t_api_keys = (os.getenv("taccesskey"), os.getenv("taccesskeysecret"))
+t_api_keys = (os.getenv("tapikey"), os.getenv("tapikeysecret"))
 t_api_tokens = (os.getenv("taccesstoken"), os.getenv("taccesstokensecret"))
 
 # Null document on spreadsheet/airtable
